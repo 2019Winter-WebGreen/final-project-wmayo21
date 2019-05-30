@@ -1,0 +1,140 @@
+/*
+*Wendy Mayo
+*May 30,2019
+*Final Project and Innovative Women
+*/
+
+/* The universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Body attributes here */
+body {
+    width: 94%;
+    height: 100%;
+    background-color: white;
+    margin: 15px auto;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    color: palevioletred;
+}
+
+h1 {
+    padding: 10px;
+    font-family: cursive;
+}/* All h1 should be effected */
+
+header {
+    border-bottom: 2px solid skyblue;
+    padding: 1em;
+    margin: 2em;
+}/*The title should only be effected */
+
+#A1 {
+    width: 17.5%;
+    height: 94%;
+    float: left;
+    color: palevioletred;
+    padding-bottom: .3em;
+}/* The whole left sidebar should be affected */
+
+main {
+    width: 61%;
+    height: 94%;
+    float: left;
+    padding: 1%;
+    border-left: 2px solid skyblue;
+    border-right: 2px solid skyblue;
+}/* The whole middle section should be effected */
+
+#A2 {
+    width: 17.5%;
+    height: 94%;
+    float: right;
+    padding-bottom: 5em;
+    color: palevioletred;
+}/* The whole right sidebar should be effected */
+
+footer {
+    clear: both;
+    height: 6%;
+    border-top: 2px solid skyblue;
+    color: palevioletred;
+}/*The sources/bottom should be effected should be effected */
+
+#P3{
+    display: inline-block;
+    text-align: center;
+}/* One picture should be effected */
+
+blockquote{
+    font-family: cursive;
+    text-align: center;
+    font-size: 17pt;
+    margin: 1em;
+}/* Only this quote should be effected */
+
+ul {
+    list-style-position: inside;
+    padding: 10px;
+    margin-left: 10px;
+}/* Should effect the the list at the bottom */
+
+#P4{
+    width:98%;
+    height:98%;
+    border: 4px solid palevioletred;
+    margin: 6%;
+}/* One pircture should be effected */
+
+h1{
+    text-align: center;
+}/* All h1 should be effected */
+
+.Title{
+    text-align: left;
+}/* Only this class should be effected */
+
+p{
+    margin:2%
+}/* All parafraphs should be effected */
+
+#P5{
+    width:98%;
+    height:98%;
+    border: 4px solid palevioletred;
+    margin: 6%;
+}/* Only one picture should be effected */
+
+#P3{
+    margin: 0 35%
+}/* Only one picture should be effected */
+
+#P1{
+    border: 4px solid palevioletred;
+    margin: 6%;
+}/* One pircture should be effected */
+
+#P2{
+    border: 4px solid palevioletred;
+    margin: 6%;
+}/* One pircture should be effected */
+
+.wider { margin-bottom: 15px;}/* space between sections */
+
+.bolder{
+    font-weight: 940;
+}/* bold the titles of trivia and accomplishments */
+
+a:link{
+    color: palevioletred;
+}/* Should effect the links color */
+
+a:hover, a:focus{
+    color:magenta;
+}/* when hovered or focused over it will get bigger and change colors */
+
+.links:link{
+    color: palevioletred;
+}
